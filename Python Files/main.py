@@ -5,7 +5,7 @@ import time
 import vehicles
 
 #---------------------------------------------------VARIABLE DECLARATIONS-------------------------------------------------------------------------------
-cap=cv2.VideoCapture("C:/Users/HIMA/Desktop/PROJECTS/CBIR/Vehicle_Detection-And-Classification/video.mp4")
+cap=cv2.VideoCapture("./Videos/video.mp4") 
 fgbg=cv2.createBackgroundSubtractorMOG2(detectShadows=False,history=200,varThreshold = 90)
 kernalOp = np.ones((3,3),np.uint8)
 kernalOp2 = np.ones((5,5),np.uint8)
