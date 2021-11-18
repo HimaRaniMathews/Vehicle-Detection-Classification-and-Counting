@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('C:/Users/HIMA/Desktop/PROJECTS/CBIR/Vehicle_Detection-And-Classification/video.mp4')
+cap=cv2.VideoCapture("./Videos/video.mp4")
 fgbg = cv2.createBackgroundSubtractorMOG2()
 
 while(1):
