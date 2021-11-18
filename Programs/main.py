@@ -64,14 +64,14 @@ while(cap.isOpened()):
                             if i.going_UP(line_down,line_up)==True:
                                 cnt_up+=1
                                 img=cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),2)
-                                cv2.imwrite("C:/Users/HIMA/Desktop/PROJECTS/CBIR/Vehicle_Detection-And-Classification/detected_vehicles/vehicleUP" + str(cnt_up) + ".png", img[y:y + h - 1, x:x+w])
+                                cv2.imwrite("./detected_vehicles/vehicleUP" + str(cnt_up) + ".png", img[y:y + h - 1, x:x+w])
                                 
                                 
 
                             elif i.going_DOWN(line_down,line_up)==True:
                                 cnt_down+=1
                                 img=cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),2)
-                                cv2.imwrite("C:/Users/HIMA/Desktop/PROJECTS/CBIR/Vehicle_Detection-And-Classification/detected_vehicles/vehicleDOWN" + str(cnt_down) + ".png", img[y:y + h - 1, x:x+w])
+                                cv2.imwrite("./detected_vehicles/vehicleDOWN" + str(cnt_down) + ".png", img[y:y + h - 1, x:x+w])
                                 
 
                             break
