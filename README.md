@@ -8,12 +8,12 @@ Vehicle tracking is the process of locating a moving vehicle using a camera. Cap
 3. Vehicle Counting
 
 **FILES**:<br>
-- PROGRAMS/
+- PROGRAMS/<br>
   - [Main.py](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/blob/main/Programs/main.py) : The main program to run the file
   - [Vehicle.py](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/blob/main/Programs/vehicles.py) : Contain the class Vehicle
   - [fgbgMOG2.py](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/blob/main/Programs/fgbgMOG2.py) : Simple program to show the backgound subracted video
   - [thresholding.py](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/blob/main/Programs/thresholding.py) : Program to binarize the subracted grayscale video ,basically done after background subtraction
   - [Opening.py](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/blob/main/Programs/Opening.py) : Program to perform morphological opening operation
   - [Closing.py](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/blob/main/Programs/Closing.py) : Program to perform morphological closing operation
-- [VIDEOS/ ](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/tree/main/Videos) : Contains the input video for vehicle detection
+- [VIDEOS/ ](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/tree/main/Videos) : Contains the input video for vehicle detection<br>
 - [DETECTED VEHICLES/](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/tree/main/detected_vehicles) : Contains the images of vehicles detected from the video
