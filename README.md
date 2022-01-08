@@ -17,3 +17,4 @@ Vehicle tracking is the process of locating a moving vehicle using a camera. Cap
   - [Closing.py](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/blob/main/Programs/Closing.py) : Program to perform morphological closing operation
 - [VIDEOS/ ](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/tree/main/Videos) : Contains the input video for vehicle detection<br>
 - [DETECTED VEHICLES/](https://github.com/HimaRaniMathews/Vehicle-Detection-Classification-and-Counting/tree/main/detected_vehicles) : Contains the images of vehicles detected from the video
+
